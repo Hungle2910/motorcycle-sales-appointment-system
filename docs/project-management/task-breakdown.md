@@ -4,9 +4,9 @@
 
 | Role | Owner | Scope |
 | --- | --- | --- |
-| Backend 1 | @Ram273825 | SQL Server, DAO, model, admin CRUD |
-| Backend 2 | @Hungle2910 | Servlet flow, auth/session, cart/order logic, integration |
-| Frontend | quocbinh072517@gmail.com | JSP pages, shared layout, Bootstrap/CSS, client validation |
+| Backend 1 | Tạ Đào Thiên Phước - @Ram273825 | SQL Server, DAO, model, admin CRUD |
+| Backend 2 | Lê Đoàn Gia Hưng - @Hungle2910 | Servlet flow, auth/session, cart/order logic, integration |
+| Frontend | Huỳnh Quốc Bình - @binh062117 | JSP pages, shared layout, Bootstrap/CSS, client validation |
 
 ## Milestones
 
