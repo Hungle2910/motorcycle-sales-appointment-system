@@ -1,0 +1,83 @@
+:root {
+    color-scheme: light;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18202a;
+    background: #f6f8fb;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header,
+.site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background: #ffffff;
+    border-bottom: 1px solid #dde3ec;
+}
+
+.site-footer {
+    border-top: 1px solid #dde3ec;
+    border-bottom: 0;
+}
+
+.brand {
+    color: #0b5cad;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+nav a,
+.primary-button {
+    color: #0b5cad;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.hero {
+    padding: 48px 0;
+}
+
+.hero h1 {
+    max-width: 720px;
+    font-size: 44px;
+    line-height: 1.1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.motorcycle-card {
+    background: #ffffff;
+    border: 1px solid #dde3ec;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+input,
+button {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 12px;
+}

@@ -1,0 +1,18 @@
+name: CD Placeholder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-check:
+    name: Release readiness check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Print deployment notes
+        run: |
+          echo "Deploy WAR artifact from backend/target to Apache Tomcat."
+          echo "Configure SQL Server with database/schema.sql and database/seed.sql."
