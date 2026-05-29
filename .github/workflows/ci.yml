@@ -23,4 +23,6 @@ jobs:
 
       - name: Build backend
         working-directory: backend
+        env:
+          MAVEN_OPTS: -Xmx1024m
         run: mvn -B clean package
